@@ -1,72 +1,72 @@
 {
-	"nodes": [
-		{
-			"NodeId": 0,
-			"Position": {
-				"X": 50,
-				"Y": 1,
-				"Z": 50
-			},
-			"Links": [
-				0,
-				1
-			],
-			"System": 0
-		},
-		{
-			"NodeId": 1,
-			"Position": {
-				"X": 55,
-				"Y": 2,
-				"Z": 50
-			},
-			"Links": [
-				1,
-				2
-			],
-			"System": 0
-		},
-		{
-			"NodeId": 2,
-			"Position": {
-				"X": 50,
-				"Y": 1.5,
-				"Z": 60
-			},
-			"Links": [
-				0,
-				2
-			],
-			"System": 0
-		}
-	],
-	"links": [
-		{
-			"LinkId": 0,
-			"Nodes": [
-				0,
-				2
-			],
-			"SpeedLimit": 1.5,
-			"System": 0
-		},
-		{
-			"LinkId": 1,
-			"Nodes": [
-				0,
-				1
-			],
-			"SpeedLimit": 1.5,
-			"System": 0
-		},
-		{
-			"LinkId": 2,
-			"Nodes": [
-				1,
-				2
-			],
-			"SpeedLimit": 1.5,
-			"System": 0
-		},
-	]
+  "nodes": [
+    {
+      "NodeId": 0,
+      "Position": {
+        "X": 50,
+        "Y": 1,
+        "Z": 50
+      },
+      "Links": [
+        0,
+        1
+      ],
+      "System": 0
+    },
+    {
+      "NodeId": 1,
+      "Position": {
+        "X": 55,
+        "Y": 2,
+        "Z": 50
+      },
+      "Links": [
+        1,
+        2
+      ],
+      "System": 0
+    },
+    {
+      "NodeId": 2,
+      "Position": {
+        "X": 50,
+        "Y": 1.5,
+        "Z": 60
+      },
+      "Links": [
+        0,
+        2
+      ],
+      "System": 0
+    }
+  ],
+  "links": [
+    {
+      "LinkId": 0,
+      "Nodes": [
+        0,
+        2
+      ],
+      "SpeedLimit": 1.5,
+      "System": 0
+    },
+    {
+      "LinkId": 1,
+      "Nodes": [
+        0,
+        1
+      ],
+      "SpeedLimit": 1.5,
+      "System": 0
+    },
+    {
+      "LinkId": 2,
+      "Nodes": [
+        1,
+        2
+      ],
+      "SpeedLimit": 1.5,
+      "System": 0
+    }
+  ]
 }
